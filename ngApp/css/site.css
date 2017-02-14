@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+    background-image: url("bodypic.jpg");
+    background-size: 100% 100%;
+    color: black;
+   
+}
+body{
+    text-align: center;
+    background-image: url("bodypic.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:darkorange;
+    
+}
+.sdnav{
+    background-color: darkblue;
+    color: white;
+}
+.contents{
+    text-align: center;
+}
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+    background-image: url("spotlight.jpg");
+    background-size: 100% 100%;
+    /*background-color: lightblue;*/
+    color: black;
+}
