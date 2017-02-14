@@ -1,6 +1,6 @@
-namespace compuframes {
+namespace bandApp {
 
-    angular.module('compuframes', ['ui.router', 'ngResource', 'ngMaterial', 'ngMessages','ui.bootstrap']).config((
+    angular.module('bandApp', ['ui.router', 'ngResource', 'ngMaterial', 'ngMessages','ui.bootstrap']).config((
         $stateProvider: ng.ui.IStateProvider,
         $urlRouterProvider: ng.ui.IUrlRouterProvider,
         $locationProvider: ng.ILocationProvider
@@ -10,13 +10,13 @@ namespace compuframes {
             .state('home', {
                 url: '/',
                 templateUrl: '/ngApp/views/home.html',
-                controller: compuframes.Controllers.HomeController,
+                controller: bandApp.Controllers.HomeController,
                 controllerAs: 'controller'
             })
             .state('about', {
                 url: '/about',
                 templateUrl: '/ngApp/views/about.html',
-                controller: compuframes.Controllers.AboutController,
+                controller: bandApp.Controllers.AboutController,
                 controllerAs: 'controller'
             })
             .state('notFound', {

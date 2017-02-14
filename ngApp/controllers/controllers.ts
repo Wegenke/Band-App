@@ -1,4 +1,4 @@
-namespace compuframes.Controllers {
+namespace bandApp.Controllers {
 
     export class HomeController {
     }
