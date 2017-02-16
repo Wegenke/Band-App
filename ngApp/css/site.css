@@ -14,11 +14,13 @@ body{
     
 }
 .sdnav{
-    background-color: darkblue;
-    color: white;
+    background-color: black;
 }
 .contents{
     text-align: center;
+}
+.anchor{
+    color: darkred;
 }
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
     background-image: url("spotlight.jpg");
