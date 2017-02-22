@@ -1,21 +1,21 @@
 html{
     background-color: black;
-    background-image: url("bodypic.jpg");
-    background-size: 100% 100%;
+    background-image: url("Salive.jpg");
+    background-size: 125% 125%;
     color: black;
-   
+font-family:Helvatica;
 }
 body{
     text-align: center;
-    background-image: url("bodypic.jpg");
-    background-size: 100% 100%;
+    background-image: url("Salive.jpg");
+    background-size: 125% 125%;
     background-repeat: no-repeat;
-    color:darkorange;
-    
+    color:purple;
+
 }
 .sdnav{
     background-color: darkblue;
-    color: white;
+    color: purple;
 }
 .contents{
     text-align: center;
@@ -24,5 +24,9 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
     background-image: url("spotlight.jpg");
     background-size: 100% 100%;
     /*background-color: lightblue;*/
-    color: black;
+    color: purple;
+}
+element
+{
+  font-family:Helvatica;
 }
