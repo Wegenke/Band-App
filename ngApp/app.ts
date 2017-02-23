@@ -26,9 +26,13 @@ namespace bandApp {
             .state('furure',{
                 url: '/futureevents',
                 templateUrl: '/ngApp/views/future.html'
-            }
-
-            )
+            })
+            .state('signUp',{
+                url: '/signUp',
+                templateUrl: 'ngApp/views/signUp.html',
+                controller: bandApp.Controllers.SignInController,
+                controllerAs: 'controller'
+            })
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'
