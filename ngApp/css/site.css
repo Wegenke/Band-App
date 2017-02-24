@@ -18,8 +18,10 @@ body{
     width: 100%
 }
 .sdnav{
-    background-color: darkblue;
-    color: lightblue;
+    background-color: rgba(0,0,0,.7);
+}
+.validate{
+    width: 100%
 }
 .contents{
     text-align: center;

@@ -1,7 +1,6 @@
-<h4><b>ALREAD A MEMBER <button ng-click="controller.openDialog()" style="color: white; background-color: black">LOGIN</button></b></h4>
-<div class="signUpContainer">
+<div class="signUpContainer" style="padding-left: 150px">
    <div id="signup">
-      <div class="signup-screen">
+      <div class="signup-screen" style="width: 350px">
          <div class="space-bot text-center">
             <h1 style="color:aliceblue">Sign up</h1>
            <div class="divider"></div>
@@ -24,11 +23,13 @@
                <label for="password">Password</label></br>
                <input id="password" type="password" name="password" ng-model="password" ng-minlength='6' ng-maxlength="20" class="validate" required style="color: black">
               </div>
-              <p class="alert alert-danger" ng-show="form-register.password.$error.minlength || form.password.$invalid">Your password must be at least 6 characters.</p>
+              <p class="alert alert-danger" ng-show="form-register.password.$error.minlength">Your password must be at least 6 characters.</p>
+              <p class="alert alert-danger" ng-show="form-register.password.$error.maxlength">Your password must be no more than 20 characters.</p>
               <div class="space-top text-center">
                <button ng-disabled="form-register.$invalid" class="waves-effect waves-light btn done"><strong>Done</strong></button>
                <button type="button" class="waves-effect waves-light btn cancel" ng-click="modal.closeDialog()"><strong>Cancel</strong></button>
               </div>
+               <h4><b>ALREAD A MEMBER <button ng-click="controller.openDialog()" style="color: white; background-color: black; text-align: center">LOGIN</button></b></h4>
              </form>
            </div>
         </div>
