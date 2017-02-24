@@ -27,6 +27,7 @@ body{
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
     background-image: url("spotlight.jpg");
     background-size: 100% 100%;
+    width: 100%;
     /*background-color: lightblue;*/
     color: lightblue;;
 }
@@ -120,7 +121,7 @@ h1 {
   border-color: #e85a71;
   background-color:  #e85a71;
   color: white;
-  
+
 }
 
 .help-block {
