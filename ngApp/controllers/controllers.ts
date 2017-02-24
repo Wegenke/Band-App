@@ -11,8 +11,7 @@ namespace bandApp.Controllers {
             this.$mdDialog.show({
                 controller: ModalController,
                 controllerAs: 'modal',
-                templateUrl: '/ngApp/views/logIn.html',
-                clickOutsideToClose: true
+                templateUrl: '/ngApp/views/logIn.html'
             })
             
         } 
