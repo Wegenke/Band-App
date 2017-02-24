@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html{
     background-color: black;
     background-image: url("Salive.jpg");
@@ -11,12 +11,12 @@ body{
     background-image: url("Salive.jpg");
     background-size: 125% 125%;
     background-repeat: no-repeat;
-    color:purple;
+    color:lightblue;
 
 }
 .sdnav{
     background-color: darkblue;
-    color: purple;
+    color: lightblue;
 }
 .contents{
     text-align: center;
@@ -25,43 +25,9 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
     background-image: url("spotlight.jpg");
     background-size: 100% 100%;
     /*background-color: lightblue;*/
-    color: purple;
+    color: lightblue;;
 }
 element
 {
   font-family:Helvatica;
 }
-=======
-html{
-    background-color: black;
-    background-image: url("Salive.jpg");
-    background-size: 125% 125%;
-    color: black;
-font-family:Helvatica;
-}
-body{
-    text-align: center;
-    background-image: url("Salive.jpg");
-    background-size: 125% 125%;
-    background-repeat: no-repeat;
-    color:purple;
-
-}
-.sdnav{
-    background-color: darkblue;
-    color: white;
-}
-.contents{
-    text-align: center;
-}
-md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
-    background-image: url("spotlight.jpg");
-    background-size: 100% 100%;
-    /*background-color: lightblue;*/
-    color: black;
-}
-element
-{
-  font-family:Helvatica;
-}
->>>>>>> 6d975f3bb914d1aa2a5e187ae321c53c10f94e9e
