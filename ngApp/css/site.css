@@ -4,7 +4,7 @@ html{
     background-image: url("Salive.jpg");
     background-size: 125% 125%;
     color: black;
-font-family:Helvatica;
+font-family:Helvetica;
 }
 body{
     text-align: center;
@@ -14,14 +14,9 @@ body{
     color:lightblue;
 
 }
-.container{
-    width: 100%
-}
 .sdnav{
-    background-color: rgba(0,0,0,.7);
-}
-.validate{
-    width: 100%
+    background-color: darkblue;
+    color: lightblue;
 }
 .contents{
     text-align: center;
@@ -35,7 +30,7 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 }
 element
 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Helvetica;
 }
 .space-bot{
   margin-bottom: 35px;
