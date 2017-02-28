@@ -1,4 +1,4 @@
-const connectionString:string = "string";
+const connectionString:string = "mongodb://sci:sci@ds163699.mlab.com:63699/salive";
 
 import * as mongodb from 'mongodb';
 
