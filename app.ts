@@ -5,9 +5,13 @@ import * as logger from 'morgan';
 import * as cookieParser from 'cookie-parser';
 import * as bodyParser from 'body-parser';
 import * as ejs from 'ejs';
+import * as mongoose from 'mongoose';
 
 import routes from './routes/index';
 import users from './routes/users';
+// import Database from './db';
+import Event from './models/event'; 
+import events from './api/events';
 
 let app = express();
 
@@ -28,7 +32,14 @@ app.use('/api', express.static(path.join(__dirname, 'api')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/api/events', events)
 
+// Connect to Database on MLAB
+// Database.connect().then(() => {});
+
+// Mongoose Database
+const connectionString:string = "mongodb://sci:sci@ds163699.mlab.com:63699/salive";
+mongoose.connect(connectionString).then(() => {});
 
 // redirect 404 to home for the sake of AngularJS client-side routes
 app.get('/*', function(req, res, next) {

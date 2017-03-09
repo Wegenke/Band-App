@@ -1,9 +1,18 @@
 import * as express from 'express';
 let router = express.Router();
+// import events from '../api/events';
+let events = [
+  {id:1, name:"uno"},
+  {id:2, name:'dos'}
+]
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/allevents', (req, res) => {
+  res.send(events);
 });
 
-export default router;
+router.get('/count', (req, res) => {
+  res.send(events.length.toString());
+});
+
+export default router; 
+ 

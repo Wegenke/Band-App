@@ -33,6 +33,18 @@ namespace bandApp {
                 controller: bandApp.Controllers.SignInController,
                 controllerAs: 'controller'
             })
+            .state('create', {
+                url:'/create',
+                templateUrl: '/ngApp/views/create.html',
+                controller: bandApp.Controllers.CreateController,
+                controllerAs: 'controller'
+            })
+            .state('edit', {
+                url:'/edit',
+                templateUrl: '/ngApp/views/edit.html',
+                controller: bandApp.Controllers.EditController,
+                controllerAs: 'controller'
+            })
             .state('notFound', {
                 url: '/notFound',
                 templateUrl: '/ngApp/views/notFound.html'
